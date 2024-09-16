@@ -1,0 +1,45 @@
+#mysubmit
+{
+    padding: 5px 15px;
+    font-size: 1.4em;
+    transition: 0.25;
+    background-color: yellowgreen;
+    color: blue;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+
+}
+
+#mysubmit:hover{
+    background-color: blue;
+    color: yellowgreen;
+}
+
+.getway + label{
+    font-size: 2em;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+}
+
+#mycheckbox {
+    display: none;
+}
+
+#mycheckbox + label {
+    display: inline-block;
+    background-color: #FF0000;
+    color: white;
+    padding: 10px 20px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    text-align: center;
+}
+
+#mycheckbox:checked + label {
+    background-color: #C50000;
+    transform: scale(1.1);
+}
